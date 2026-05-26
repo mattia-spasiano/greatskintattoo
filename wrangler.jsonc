@@ -1,8 +1,0 @@
-{
-  "routes": [
-    {
-      "pattern": "greatskintattoo.com",
-      "custom_domain": true
-    }
-  ]
-}
