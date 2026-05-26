@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+figure {
+    margin: 0;
+}
+
+.sec-img {
+    width: 100vw;
+}
+
+#reviews {
+    width: 100%;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    background-color: #1A1A1A;
+    overflow: hidden;
+}
+
+.card-header {
+    border-color: #424242;
+}
+
+::-webkit-scrollbar{
+    background: transparent;
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: none;
+}
+::-webkit-scrollbar-thumb{
+    background: #424242;
+    border-radius: 9999px;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-50% - 20px));
+    }
+}
+
+.marquee-track {
+    animation: marquee 20s infinite linear;
+    gap: 2rem;
+    /* very ugly to manage gap areas like this but couldn't find a way to fix the micro-jump otherwise. */
+    width: fit-content;
+}
+
+.marquee-track:hover {
+    animation-play-state: paused;
+}
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  /* margin-left: -30px; gutter size offset */
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+  background: grey;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
