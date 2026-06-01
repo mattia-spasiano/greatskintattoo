@@ -4,11 +4,11 @@ import HomePage from './pages/HomePage';
 import About from './pages/About';
 import Contacts from './pages/Contacts';
 import ArtGallery from './pages/Gallery';
-import Services from './pages/ServicesPage';
 import NotFoundPage from './pages/NotFound';
 import MainLayout from './layout/MainLayout';
 import MinimalLayout from './layout/MinimalLayout';
 import ComingSoon from './pages/ComingSoon';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 function App() {
 
@@ -30,11 +30,11 @@ function App() {
             path='/contacts'
             element={<Contacts />} />
           <Route
-            path='/services'
-            element={<Services />} />
-          <Route
             path='/art-gallery'
             element={<ArtGallery />} />
+            <Route
+            path='/privacy-policy'
+            element={<PrivacyPolicy/>}/>
         </Route>
         <Route element={<MinimalLayout />}>
           <Route

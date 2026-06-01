@@ -1,5 +1,5 @@
-import tattooImg from '../assets/img-7d5ea4e332f9568a8d2715c301d23c0e.jpg';
-import piercingImg from '../assets/img-Piercing.jpg'
+import tattooImg from '../assets/tattoos.jpg';
+import piercingImg from '../assets/piercing.jpg'
 
 export interface Service {
     name: string;
@@ -22,7 +22,7 @@ export const SERVICES = [
         img: piercingImg,
     },
     {
-        name: 'ART GALLERY',
+        name: 'TATTOO REMOVAL',
         id: 3,
         description: 'homepage.art',
         img: 'https://placehold.co/1920x300',
