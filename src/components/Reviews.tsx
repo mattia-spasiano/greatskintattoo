@@ -12,7 +12,10 @@ export default function ReviewsList() {
                 <div className="rev-box bg-[#0E0E0E] w-140 h-full flex gap-10">
                     <div className="rating-overview ms-20 my-auto w-75">
                         <p className="font-thin text-xs">*{t('reviews.source')}</p>
-                        <p className="font-bold text-5xl">REVIEW <br />100%</p>
+                        <a className="pointer-events-auto hover:underline decoration-2"
+                        href="https://search.google.com/local/writereview?placeid=ChIJC0vfvN2ZQAwRBMMuh18OG6I"
+                        target="_blank"
+                        rel="noopener noreferrer"><p className="font-bold text-5xl">REVIEW <br />100%</p></a>
                         <p className="text-base">{t('reviews.overall')}</p>
                     </div>
                         <div className="rating-progress bg-[#444444] w-[1px] h-75 my-auto mx-0"></div>
