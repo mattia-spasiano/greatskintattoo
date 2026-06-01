@@ -16,12 +16,12 @@ function App() {
     <>
       <Routes>
         <Route
-          path='/'
+          path='/coming-soon'
           element={<ComingSoon/>}/>
         <Route element={<MainLayout />}>
         
         <Route
-            path='/home'
+            path='/'
             element={<HomePage/>}/>
           <Route
             path='/about'
