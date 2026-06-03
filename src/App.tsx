@@ -9,6 +9,7 @@ import MainLayout from './layout/MainLayout';
 import MinimalLayout from './layout/MinimalLayout';
 import ComingSoon from './pages/ComingSoon';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import CookiePolicy from './pages/CookiePolicy';
 
 function App() {
 
@@ -35,6 +36,9 @@ function App() {
             <Route
             path='/privacy-policy'
             element={<PrivacyPolicy/>}/>
+            <Route
+            path='/cookie-policy'
+            element={<CookiePolicy/>}/>
         </Route>
         <Route element={<MinimalLayout />}>
           <Route

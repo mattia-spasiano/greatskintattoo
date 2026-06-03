@@ -24,7 +24,7 @@ export default function ContactForm() {
     return (
         <>
             <form onSubmit={onSubmit} className="flex flex-col max-w-128 min-w-70 mx-auto my-auto">
-                    <h1 className="font-bold text-2xl">Contact us!</h1>
+                <h1 className="font-bold text-2xl">Contact us!</h1>
                 <p className='text-right font-thin'>{t('*Name')}</p> {/* Reminder: to change into i18next thing for name */}
                 <input type="text" name="name" className="border bg-black text-white placeholder:text-gray-400 p-1 rounded" placeholder='Write your name here...' required />
                 <p className='mbs-3 text-right font-thin'>{t('*Email')}</p> {/* Reminder: to change into i18next thing for email */}

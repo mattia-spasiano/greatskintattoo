@@ -7,7 +7,7 @@ export default function Footer() {
             <section className="footer-content w-fit text-center text-[#747474] mbs-5 pbe-5 mx-auto border-b w-screen">
                 <p className="w-fit mx-auto">Av. de Carlos V, 13b, 35240 Carrizal, Las Palmas, Spain</p>
                 <p className="w-fit mx-auto"><Link to='' className="hover:underline">+34 690 03 17 55</Link></p>
-                <p className="w-fit mx-auto"><Link to='' className="hover:underline">Privacy Policy</Link> - <Link to='' className="hover:underline">Contacts</Link></p>
+                <p className="w-fit mx-auto"><Link to='/privacy-policy' className="hover:underline">Privacy Policy</Link> - <Link to='/cookie-policy'>Cookie Policy</Link> - <Link to='' className="hover:underline">Contacts</Link></p>
                 <p className="w-fit mx-auto"><Link to='' className="hover:underline">Instagram</Link> - <Link to='' className="hover:underline">Tik Tok</Link></p>
             </section>
         </div>

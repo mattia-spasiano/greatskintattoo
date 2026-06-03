@@ -3,12 +3,15 @@ import { Link } from "react-router-dom";
 import { SERVICES } from "../constants/services.ts";
 import ServicesContent from "../components/ServicesContent.tsx";
 import ReviewsList from "../components/Reviews.tsx";
+import Cookies from "../components/Cookie.tsx";
 
 export default function HomePage() {
     const { t } = useTranslation();
 
     return (
         <>
+        <div className="relative">
+        <Cookies/>
             <section id="hero" className="mb-5 mbs-7">
                 <div style={{ backgroundColor: `blue` }} className="w-full h-screen relative">
                     <div className="w-full text-center absolute top-70">
@@ -32,6 +35,7 @@ export default function HomePage() {
             <section id="reviews" className="flex relative bg-[#0E0E0E] h-100 mx-auto overflow-hidden">
                 <ReviewsList />
             </section>
+            </div>
         </>
     )
 }
