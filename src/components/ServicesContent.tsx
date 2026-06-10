@@ -6,9 +6,10 @@ import { useTranslation } from "react-i18next";
 interface ServicesContentProps {
     service: Service;
     isEven: boolean;
+    isThird: boolean;
 }
 
-export default function ServicesContent({ service, isEven }: ServicesContentProps) {
+export default function ServicesContent({ service, isEven, isThird }: ServicesContentProps) {
     const [isOpen, setIsOpen] = useState(false);
     const { t } = useTranslation();
 
@@ -24,7 +25,7 @@ export default function ServicesContent({ service, isEven }: ServicesContentProp
                                 <button className={`CTA ${isOpen ? 'rotate-45' : ''} flex justify-center origin-center items-center duration-300`} onClick={() => setIsOpen(!isOpen)}><span className="text-5xl font-semibold leading-none baseline-top">+</span></button>
                             </div>
                             <section className={`overflow-hidden transition-all duration-300 ${isOpen ? 'max-h-[200px] opacity-100' : 'max-h-0'}`}>
-                                <p className="text-lg w-100">{t(service.description)}</p>
+                                <p className={`${isThird ? 'ms-20' : ''} text-lg w-100`}>{t(service.description)}</p>
                                 <button className="bg-white text-black font-bold py-2 px-3 rounded-lg mbs-5"><Link to='/contacts'>{t('homepage.btn')}</Link></button>
                             </section>
                         </div>

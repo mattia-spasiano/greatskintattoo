@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from "react-i18next";
+import { Link } from 'react-router-dom';
 
 
 export default function ContactForm() {
@@ -34,7 +35,11 @@ export default function ContactForm() {
                 <p className='mbs-3 text-right font-thin'>{t('*Message')}</p> {/* Reminder: to change into i18next thing for message */}
                 <textarea name="message" className="border bg-black h-30 text-white placeholder:text-gray-400 p-1 rounded max-h-75" placeholder='Write your question here...' required></textarea>
                 <input type="hidden" name="redirect" value="https://web3forms.com/success"></input>
-                <p className='text-sm'>* means the field is required.</p>
+                <p className='text-sm'>* {t('form.required')}</p>
+                <div className='flex gap-2'>
+                    <input type="checkbox" required className='mbe-4'/>
+                    <label className='text-sm'>{t('form.check')} <Link to='/privacy-policy' className='underline'>Privacy Policy.</Link></label>
+                </div>
                 <button type="submit" className='w-25 h-10 mbs-5 bg-transparent hover:bg-white hover:text-black rounded border'>Submit</button>
                 <p>{result}</p>
             </form>

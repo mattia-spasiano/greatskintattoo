@@ -5,6 +5,12 @@ html, body {
     padding: 0;
     overflow-x: hidden;
     background-color: black;
+    font-family: '';
+}
+
+@font-face {
+    font-family: 'IMFEnglish';
+    src: url(../src/assets/fonts/IMFellInEnglish/IMFellEnglish-Regular.woff2);
 }
 
 figure {

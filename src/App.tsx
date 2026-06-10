@@ -7,7 +7,6 @@ import ArtGallery from './pages/Gallery';
 import NotFoundPage from './pages/NotFound';
 import MainLayout from './layout/MainLayout';
 import MinimalLayout from './layout/MinimalLayout';
-import ComingSoon from './pages/ComingSoon';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import CookiePolicy from './pages/CookiePolicy';
 
@@ -16,9 +15,6 @@ function App() {
   return (
     <>
       <Routes>
-        <Route
-          path='/coming-soon'
-          element={<ComingSoon/>}/>
         <Route element={<MainLayout />}>
         
         <Route

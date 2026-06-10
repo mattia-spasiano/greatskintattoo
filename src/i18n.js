@@ -28,8 +28,12 @@ i18n
                     homepage: {
                         tattoo: "Realism, anime, stylized, or fine art—whatever your preference, I’ll guide you through the process of bringing your idea to life, from designing the tattoo to inking it onto your skin, with full support throughout the healing process.",
                         piercings: "Our professional piercing service uses only top-of-the-line products and the latest techniques to minimize discomfort and pain, ensuring the safest and best possible healing experience for you.",
-                        art: "If you're curious to see my work, feel free to check out my art gallery, where you'll find all my best pieces.",
+                        removal: "I don't just offer the opportunity to create art on your body; I also offer the option to remove designs you're not happy with.",
                         btn: "GET IN TOUCH"
+                    },
+                    form: {
+                        check: "I consent to the use of my personal data for the purposes set forth in the ",
+                        required: "means the field is required."
                     },
                     reviews: {
                         overall: "We achieve 100% client satisfaction through quality work, meticulous attention to detail, and exceptional post-treatment support and care.",
@@ -172,6 +176,13 @@ i18n
                         paragraph5: "Informarte también que, una vez que hayas activado cualquier tipo de cookies, tienes la posibilidad de desactivarlas en el momento que desees, con el simple paso de desmarcar la casilla correspondiente en el apartado CONFIGURACIÓN DE COOKIES de nuestra página web. Siempre será tan sencillo para ti activar nuestras cookies propias como desactivarlas.",
                         paragraph6: "Recordarte asimismo que, a través de la configuración de tu navegador, puedes bloquear o alertar de la presencia de cookies, si bien dicho bloqueo puede afectar al correcto funcionamiento de las distintas funcionalidades de nuestra página web en el caso de las cookies técnicas necesarias.",
                         paragraph7: "Por último, indicarte que, si activas cookies de terceros (empresas externas que prestan servicios para nuestra página web) y posteriormente deseas desactivarlas, podrás hacerlo de dos formas: usando las herramientas de desactivación de cookies de tu navegador o a través de los propios sistemas habilitados por dichos proveedores externos."
+                    },
+                    contacts: {
+                        socials: "You can find me in many socials, or you can just contact me through WhatsApp, whatever you prefer. Either way, I will be answering as soon as possible!"
+                    },
+                    about:{
+                        para1: "I am Giuseppe Spasiano, 38 years old italian tattoo artist in Gran Canary, Carrizal. I have always expressed my artistic skills since I was a kid, partecipating at important competitions, even getting myself the second place in a contest organized by Walt Disney. I studied in the digital graphics field, and I worked in that field until I decided that I wanted to persue my dream in becoming a tattoo artist. I started in Italy back in 2014, in Giugliano in Campania, working for many tattoo parlors and perfectioning my artstle. Until I decided to walk different path...",
+                        para2: "In 2021 I decided to begin a new adventure, and that's when I decided to move in Gran Canary where I am currently working at, showing my passion and finally having the chance to open my very own shop. I am determined to show my skills and to bring to life all your ideas, excelling in black and white realism, japanese and cortoonish styles among many other. I don't plan in stopping anytime soon, for that reason I also actively participate in contests and conventions!"
                     }
                 },
             },
@@ -190,7 +201,7 @@ i18n
                     homepage: {
                         tattoo: "Realismo, anime, stilizzato o fineart, qualsiasi sia la tua esigenza ti accompagnerò nella realizzazione della tua idea dalla progettazione del tatuaggio fino alla realizzazione sulla tua pelle, con completa assistenza sulla guarigione.",
                         piercings: "Il nostro servizio per la realizzazione di piercings include il top di gamma dei prodotti e procedure per minimizzare il dolore ed avere la miglior guarigione possibile.",
-                        art: "Se sei curioso di vedere i miei lavori, sentiti libero di vedere la mia galleria d'arte, dove sono presenti tutti i miei lavori migliori.",
+                        removal: "Non offro solo la possibilità di creare arte sul tuo corpo, ma offro anche la possibilità di rimuovere opere che non ti hanno soddisfatto.",
                         btn: "CONTATTAMI"
                     },
                     reviews: {
@@ -201,6 +212,10 @@ i18n
                         review3: "Il tatuatore è decisamente competente e professionale, ho iniziato con lui chiedendogli di aggiustare un disegno di un lavoro fatto male e si è conquistato decisamente la mia fiducia, da lì in poi ho fatto altri 4 tatuaggi, tutti eseguiti in maniera eccellente, è un posto che consiglio vivamente a chi si vuole tatuare.",
                         review4: "Era da anni che volevo farmi un piercing microdermico. Finalmente ho scoperto questo posto, ed è stata la scelta migliore che potessi fare. Il servizio è stato eccellente: l'appuntamento è iniziato puntuale, il locale era pulitissimo e il personale incredibilmente cordiale. Mi hanno fornito istruzioni dettagliate per la cura post-trattamento e sono sempre stati disponibili a rispondere a qualsiasi domanda o a offrire assistenza. Hanno eseguito questo piercing complesso con grande precisione e gentilezza. Senza dubbio, è qui che tornerò per i miei prossimi piercing o tatuaggi. Grazie a Giuseppe!!",
                         review5: "Era la mia prima volta lì ed è stata un'esperienza incredibile! Mi ha dato ottimi consigli sul design e lo ha adattato ai miei gusti e alle mie preferenze. Mi ha anche consigliato la zona migliore per un risultato perfetto. Ho adorato il risultato finale: si può vedere chiaramente il livello di dettaglio e professionalità. Tornerò sicuramente per il mio prossimo tatuaggio. È un vero professionista!"
+                    },
+                    form: {
+                        check: "Acconsento al trattamento dei miei dati per le finalità indicate nella ",
+                        required: "significa che il campo è obbligatorio."
                     },
                     privacy: {
                         title: "POLÍTICA DE PRIVACIDAD",
@@ -333,6 +348,13 @@ i18n
                         paragraph5: "Informarte también que, una vez que hayas activado cualquier tipo de cookies, tienes la posibilidad de desactivarlas en el momento que desees, con el simple paso de desmarcar la casilla correspondiente en el apartado CONFIGURACIÓN DE COOKIES de nuestra página web. Siempre será tan sencillo para ti activar nuestras cookies propias como desactivarlas.",
                         paragraph6: "Recordarte asimismo que, a través de la configuración de tu navegador, puedes bloquear o alertar de la presencia de cookies, si bien dicho bloqueo puede afectar al correcto funcionamiento de las distintas funcionalidades de nuestra página web en el caso de las cookies técnicas necesarias.",
                         paragraph7: "Por último, indicarte que, si activas cookies de terceros (empresas externas que prestan servicios para nuestra página web) y posteriormente deseas desactivarlas, podrás hacerlo de dos formas: usando las herramientas de desactivación de cookies de tu navegador o a través de los propios sistemas habilitados por dichos proveedores externos."
+                    },
+                    contacts: {
+                        socials: "Puoi trovarmi in vari social, oppure puoi contattarmi tramite WhatsApp. In qualsiasi caso, ti risponderò non appena possibile!"
+                    },
+                    about:{
+                        para1: "Mi chiamo Giuseppe Spasiano, sono un tatuatore italiano di 38 anni e vivo a Gran Canaria, a Carrizal. Ho sempre dato sfogo alle mie capacità artistiche fin da bambino, partecipando a importanti concorsi e aggiudicandomi persino il secondo posto in un concorso organizzato dalla Walt Disney. Ho studiato grafica digitale e ho lavorato in quel settore fino a quando ho deciso di seguire il mio sogno di diventare tatuatore. Ho iniziato in Italia nel 2014, a Giugliano in Campania, lavorando per diversi studi di tatuaggi e perfezionando il mio stile. Finché non ho deciso di intraprendere una strada diversa...",
+                        para2: "Nel 2021 ho deciso di intraprendere una nuova avventura, ed è allora che ho deciso di trasferirmi a Gran Canaria, dove attualmente lavoro, dando sfogo alla mia passione e avendo finalmente l'opportunità di aprire un negozio tutto mio. Sono determinato a mettere in mostra le mie capacità e a dare vita a tutte le vostre idee, eccellendo nel realismo in bianco e nero, negli stili giapponese e cartoonesco, oltre a molti altri. Non ho intenzione di fermarmi presto, per questo motivo partecipo attivamente anche a concorsi e convention!"
                     }
                 },
             },
@@ -351,8 +373,12 @@ i18n
                     homepage: {
                         tattoo: "Realismo, anime, estilizado o fine art: te acompañaré en la materialización de tu idea, desde el diseño hasta su realización en tu piel, con seguimiento completo durante la cicatrización.",
                         piercings: "Nuestro servicio de perforación corporal incluye productos y procedimientos de primera calidad para minimizar el dolor y garantizar la mejor cicatrización posible.",
-                        art: "Si tienes curiosidad por ver mis obras, no dudes en echar un vistazo a mi galería de arte, donde encontrarás mis mejores trabajos.",
+                        removal: "No solo te ofrezco la posibilidad de crear arte en tu cuerpo, sino que también te ofrezco la posibilidad de eliminar los tatuajes que no te hayan convencido.",
                         btn: "CONTACTAR"
+                    },
+                    form: {
+                        check: "Consiento el uso de mis datos para los fines indicados en la política de privacidad ",
+                        required: "significa que el campo es obligatorio."
                     },
                     reviews: {
                         overall: "Alcanzamos el 100% de satisfacción del cliente a través de trabajo de calidad, atención al detalle y un soporte excepcional post-tratamiento",
@@ -494,6 +520,13 @@ i18n
                         paragraph5: "Informarte también que, una vez que hayas activado cualquier tipo de cookies, tienes la posibilidad de desactivarlas en el momento que desees, con el simple paso de desmarcar la casilla correspondiente en el apartado CONFIGURACIÓN DE COOKIES de nuestra página web. Siempre será tan sencillo para ti activar nuestras cookies propias como desactivarlas.",
                         paragraph6: "Recordarte asimismo que, a través de la configuración de tu navegador, puedes bloquear o alertar de la presencia de cookies, si bien dicho bloqueo puede afectar al correcto funcionamiento de las distintas funcionalidades de nuestra página web en el caso de las cookies técnicas necesarias.",
                         paragraph7: "Por último, indicarte que, si activas cookies de terceros (empresas externas que prestan servicios para nuestra página web) y posteriormente deseas desactivarlas, podrás hacerlo de dos formas: usando las herramientas de desactivación de cookies de tu navegador o a través de los propios sistemas habilitados por dichos proveedores externos."
+                    },
+                    contacts: {
+                        socials: "Puedes encontrarme en varias redes sociales o ponerte en contacto conmigo por WhatsApp. En cualquier caso, ¡te responderé lo antes posible!"
+                    },
+                    about:{
+                        para1: "Soy Giuseppe Spasiano, un tatuador italiano de 38 años afincado en Gran Canaria, en Carrizal. Siempre he dado rienda suelta a mi talento artístico, desde que era niño, participando en importantes concursos e incluso consiguiendo el segundo puesto en un certamen organizado por Walt Disney. Estudié diseño gráfico digital y trabajé en ese campo hasta que decidí que quería perseguir mi sueño de convertirme en tatuador. Empecé en Italia en 2014, en Giugliano in Campania, trabajando para muchos estudios de tatuajes y perfeccionando mi estilo. Hasta que decidí tomar un camino diferente...",
+                        para2: "En 2021 decidí emprender una nueva aventura, y fue entonces cuando decidí mudarme a Gran Canaria, donde actualmente trabajo, dando rienda suelta a mi pasión y teniendo por fin la oportunidad de abrir mi propia tienda. Estoy decidido a demostrar mi talento y a hacer realidad todas vuestras ideas, destacando en el realismo en blanco y negro, los estilos japonés y caricaturesco, entre muchos otros. No tengo intención de parar pronto, ¡por eso también participo activamente en concursos y convenciones!"
                     }
                 },
             },

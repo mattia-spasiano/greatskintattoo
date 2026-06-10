@@ -1,5 +1,6 @@
 import tattooImg from '../assets/tattoos.jpg';
 import piercingImg from '../assets/piercing.jpg'
+import removalImg from '../assets/removal.jpg'
 
 export interface Service {
     name: string;
@@ -24,7 +25,7 @@ export const SERVICES = [
     {
         name: 'TATTOO REMOVAL',
         id: 3,
-        description: 'homepage.art',
-        img: 'https://placehold.co/1920x300',
+        description: 'homepage.removal',
+        img: removalImg,
     }
 ]
