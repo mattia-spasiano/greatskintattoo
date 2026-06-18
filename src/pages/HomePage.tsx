@@ -23,7 +23,7 @@ export default function HomePage() {
         <div className="relative">
         <Cookies/>
             <section id="hero" className="mb-5 mbs-7">
-                <div style={{ backgroundImage: `url(${Hero})` }} className="w-full h-screen relative bg-center bg-size-[1600px]">
+                <div style={{ backgroundImage: `url(${Hero})` }} className="w-full h-screen relative bg-center bg-cover">
                     <div className="w-full h-full bg-black opacity-85"></div>
                     <div className="w-full text-center absolute top-80">
                         <p>{t('hero.description')}</p>

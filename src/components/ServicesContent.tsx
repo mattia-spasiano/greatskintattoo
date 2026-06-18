@@ -17,7 +17,7 @@ export default function ServicesContent({ service, isEven, isThird }: ServicesCo
     return (
         <>
             <section id={service.name} className="service mbe-10">
-                <div className={`sec-img ${isOpen ? 'h-100' : 'h-60'} duration-300 transition-[height] bg-size-[1600px]`} style={{ backgroundImage: `url(${service.img})` }}>
+                <div className={`sec-img ${isOpen ? 'h-100' : 'h-60'} duration-300 transition-[height] bg-cover`} style={{ backgroundImage: `url(${service.img})` }}>
                     <div className="bg-black w-full h-full opacity-80 relative mb-auto">
                         <div className={` flex-col absolute w-fit my-20 opacity-100 ${isEven ? ' right-30 text-right' : 'left-30'}`}>
                             <div className={`flex gap-5 text-right mbe-10 ${isEven && 'justify-end'}`}>
